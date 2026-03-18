@@ -8,7 +8,7 @@ public class ZakazovaZnacka extends DopravniZnacka {
     }
  @Override
     public boolean jePorusena(Auto auto){
-        return auto.getAuktualniAkce() = zakazaneAkce;
+        return auto.getAktualniAkce() == zakazaneAkce;
  }
 
 }

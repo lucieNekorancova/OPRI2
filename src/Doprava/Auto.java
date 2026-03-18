@@ -6,7 +6,7 @@ public class Auto {
     private AkceAuta aktualniAkce;
     private Smer smerJizdy;
 
-    public Auto(String spz, int rychlost) {
+    public Auto(String spz, int rychlost, AkceAuta aktualniAkce, Smer smerJizdy) {
         this.spz = spz;
         this.rychlost = rychlost;
         this.aktualniAkce = aktualniAkce;

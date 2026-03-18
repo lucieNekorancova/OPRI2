@@ -10,7 +10,7 @@ public class SpravaPokut {
 
         for (DopravniZnacka znacka : lokace.getZnacky()){
             if (znacka.jePorusena(auto)){
-                pokuty.add("Pokuta v lokaci" + lokace.getNazev() + "Pro auto" + auto.getSpz() + "Důvod:" + znacka.getClass().getSimpleName());
+                pokuty.add("Pokuta v lokaci" + lokace.getNazev() + "Pro auto" + auto.getSpz() + "Duvod:" + znacka.getClass().getSimpleName());
             }
         }
     return pokuty;
